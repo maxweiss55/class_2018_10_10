@@ -1,0 +1,31 @@
+---
+title: "class_2018_10_10"
+author: "Max Weiss"
+date: "10/10/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+library(devtools)
+library(readxl)
+
+```
+
+```{r read-in}
+
+fall_18 <- read_excel("class_enrollment_summary_by_term_10.10.18.xlsx", skip = 2)
+fall_17 <- read_excel("class_enrollment_summary_by_term_10.20.17.xlsx", skip = 2)
+
+```
+
+```{r}
+fall_17
+```
+
+
+
+
+
